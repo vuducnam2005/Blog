@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vũ Đức Nam (ducnamdev) — Backend Developer & Systems Architect | Portfolio & Blog</title>
-<meta name="description" content="Portfolio và Blog cá nhân của Vũ Đức Nam (ducnamdev). Sinh viên CNTT ĐH Đại Nam, định hướng Backend Developer Fresher, C# .NET 9, Python, SQL Server và hệ thống bảo mật.">
+<meta name="description" content="Portfolio và Blog cá nhân của Vũ Đức Nam (ducnamdev). Sinh viên CNTT ĐH Đại Nam (GPA 3.52), chuyên sâu Backend & FullStack: .NET, Spring Boot, NodeJs, ReactJs, ThreeJs, SQL Server và hệ thống bảo mật.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2305070a'/%3E%3Ccircle cx='16' cy='17' r='8' fill='%23e0231c'/%3E%3Crect x='4' y='8' width='24' height='2.6' fill='%23dfe7e0'/%3E%3Crect x='7' y='13' width='18' height='2' fill='%23dfe7e0'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="/secret-pathways-assets/fonts.css">
 <style>
@@ -1271,6 +1271,267 @@ body[data-layout-closing="b"] .fin .cta {
   border-radius: 24px !important;
   box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.85), inset 0 1px 1px rgba(255, 255, 255, 0.35) !important;
 }
+
+/* ============================================================= COMPREHENSIVE MOBILE OPTIMIZATIONS */
+@media (max-width: 820px) {
+  /* Prevent any horizontal screen spill */
+  html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+  }
+  
+  /* Compact section horizontal paddings */
+  .sec, .hero {
+    padding-left: clamp(14px, 4vw, 24px) !important;
+    padding-right: clamp(14px, 4vw, 24px) !important;
+  }
+  
+  /* Top Navigation */
+  .nav {
+    padding-left: clamp(12px, 3.5vw, 20px) !important;
+    padding-right: clamp(12px, 3.5vw, 20px) !important;
+  }
+  .brand-tx b {
+    font-size: 13px !important;
+  }
+  .brand-tx i {
+    font-size: 9px !important;
+  }
+
+  /* Hero Section */
+  .hero-top {
+    padding-top: calc(var(--nav-h) + 12px) !important;
+  }
+  .hero-name-txt {
+    font-size: clamp(34px, 8.5vw, 68px) !important;
+    line-height: 1.1 !important;
+    word-break: break-word !important;
+  }
+  .hero-title-badge {
+    padding: 8px 14px !important;
+    gap: 8px !important;
+    max-width: 100% !important;
+    flex-wrap: wrap !important;
+    border-radius: 10px !important;
+  }
+  .hero-title-badge span:nth-child(2) {
+    font-size: clamp(12px, 3.4vw, 17px) !important;
+    letter-spacing: 0.04em !important;
+  }
+
+  /* VIP Profile Card on mobile */
+  .vip-profile-card {
+    padding: 20px 16px !important;
+    border-radius: 20px !important;
+  }
+  .hero-profile-header {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 16px !important;
+  }
+  .hero-profile-tags {
+    justify-content: center !important;
+  }
+  .hero-profile-tags h2 {
+    font-size: 22px !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  
+  /* Thumb-friendly mobile action buttons */
+  .hero-action-btns {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 10px !important;
+  }
+  .hero-action-btns a {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 12px 18px !important;
+    margin-left: 0 !important;
+    font-size: 12px !important;
+  }
+
+  /* Stat Grid in Hero: 2x2 grid */
+  .stat-grid-vip {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+  .stat-box-vip {
+    padding: 14px 10px !important;
+    border-radius: 14px !important;
+  }
+  .stat-box-vip b {
+    font-size: 24px !important;
+  }
+  .stat-box-vip span {
+    font-size: 10px !important;
+  }
+
+  /* Chapter Chips Strip */
+  .chapters {
+    grid-template-columns: 1fr !important;
+    padding: 16px !important;
+    gap: 10px !important;
+    border-radius: 16px !important;
+  }
+  .chip {
+    padding: 12px 14px !important;
+  }
+
+  /* Projects Section Grid */
+  .pathways-grid {
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+  .glass-card {
+    padding: 20px 16px !important;
+    border-radius: 18px !important;
+  }
+  .glass-card h3 {
+    font-size: 18px !important;
+  }
+
+  /* Flagship BI Project Card */
+  .flagship-card {
+    padding: 22px 16px !important;
+  }
+  .flagship-card h3 {
+    font-size: 20px !important;
+    line-height: 1.35 !important;
+  }
+  .flagship-actions {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 10px !important;
+  }
+  .flagship-actions a {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Blog Lessons Container */
+  .cur {
+    border-radius: 18px !important;
+    padding: 0 !important;
+  }
+  .les {
+    padding: 18px 16px !important;
+    min-height: auto !important;
+    grid-template-columns: 32px 1fr !important;
+  }
+  .les h3 {
+    font-size: 16px !important;
+  }
+  .les p {
+    display: block !important;
+    font-size: 12px !important;
+    max-width: none !important;
+  }
+
+  /* Contact Hub Card */
+  .contact-hub-glass {
+    padding: 22px 16px !important;
+    border-radius: 20px !important;
+    width: 100% !important;
+  }
+  .contact-hub-actions {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 10px !important;
+  }
+  .contact-hub-actions a {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Article Reader Modal Mobile */
+  .art-modal {
+    padding: 12px !important;
+  }
+  .art-modal-panel {
+    width: 100% !important;
+    max-height: 90vh !important;
+    border-radius: 18px !important;
+  }
+  .art-modal-header {
+    padding: 14px 18px !important;
+  }
+  .art-modal-body {
+    padding: 20px 16px !important;
+  }
+  .art-modal-title {
+    font-size: 19px !important;
+    line-height: 1.35 !important;
+  }
+  .art-prose {
+    font-size: 14px !important;
+    line-height: 1.7 !important;
+  }
+
+  /* Footer */
+  .foot-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra compact for smaller smartphones (iPhone SE, Galaxy A series, etc.) */
+  .nav-cta-btn {
+    display: none !important;
+  }
+  .vip-profile-card {
+    padding: 18px 12px !important;
+    border-radius: 16px !important;
+  }
+  .hero-name-txt {
+    font-size: clamp(28px, 9.5vw, 48px) !important;
+  }
+  .vip-info-item {
+    padding: 10px 12px !important;
+    gap: 10px !important;
+    font-size: 12px !important;
+  }
+  .stat-grid-vip {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+  .stat-box-vip {
+    padding: 12px 8px !important;
+  }
+  .stat-box-vip b {
+    font-size: 20px !important;
+  }
+  .gate-stats {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px !important;
+    padding: 16px 14px !important;
+    margin-top: 32px !important;
+  }
+  .gate-stats div b {
+    font-size: 22px !important;
+  }
+  .gate-portrait-card {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 12px !important;
+  }
+}
+
+/* Touch screen UX enhancements */
+@media (hover: none) and (pointer: coarse) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  a, button {
+    touch-action: manipulation;
+  }
+}
 </style>
 </head>
 <body class="theme-ducnam">
@@ -1332,15 +1593,15 @@ body[data-layout-closing="b"] .fin .cta {
     <div data-rv="up" style="margin-top:6px;margin-bottom:26px;">
       <!-- Glowing Giant Name -->
       <h1 style="margin:0 0 14px 0;line-height:1.06;">
-        <span style="display:inline-block;font-size:clamp(46px,7vw,88px);font-weight:900;letter-spacing:-0.01em;background:linear-gradient(135deg,#ffffff 20%,#ffe5e0 60%,#ff8a7a 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 35px rgba(255,255,255,0.45)) drop-shadow(0 4px 20px rgba(224,35,28,0.7));">
+        <span class="hero-name-txt" style="display:inline-block;font-size:clamp(34px,7.5vw,88px);font-weight:900;letter-spacing:-0.01em;background:linear-gradient(135deg,#ffffff 20%,#ffe5e0 60%,#ff8a7a 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 35px rgba(255,255,255,0.45)) drop-shadow(0 4px 20px rgba(224,35,28,0.7));">
           VŨ ĐỨC NAM
         </span>
       </h1>
 
       <!-- Glowing High-Tech Engineering Title Badge -->
-      <div style="display:inline-flex;align-items:center;gap:12px;padding:10px 22px;border-radius:12px;background:linear-gradient(135deg,rgba(224,35,28,0.3) 0%,rgba(16,185,129,0.12) 100%),rgba(10,16,28,0.75);border:1.5px solid rgba(255,100,80,0.65);box-shadow:0 0 32px rgba(224,35,28,0.4),inset 0 1px 1px rgba(255,255,255,0.4);backdrop-filter:blur(18px);">
+      <div class="hero-title-badge" style="display:inline-flex;align-items:center;gap:12px;padding:10px 22px;border-radius:12px;background:linear-gradient(135deg,rgba(224,35,28,0.3) 0%,rgba(16,185,129,0.12) 100%),rgba(10,16,28,0.75);border:1.5px solid rgba(255,100,80,0.65);box-shadow:0 0 32px rgba(224,35,28,0.4),inset 0 1px 1px rgba(255,255,255,0.4);backdrop-filter:blur(18px);">
         <span style="font-size:20px;filter:drop-shadow(0 0 8px #ff4d4d);animation:pulse 2s infinite;">⚡</span>
-        <span style="font-size:clamp(15px,2.2vw,24px);font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#ffffff;text-shadow:0 0 18px rgba(255,77,77,0.85),0 2px 4px rgba(0,0,0,0.9);">
+        <span style="font-size:clamp(14px,2.2vw,24px);font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#ffffff;text-shadow:0 0 18px rgba(255,77,77,0.85),0 2px 4px rgba(0,0,0,0.9);">
           KỸ SƯ LẬP TRÌNH BACKEND &amp; HỆ THỐNG WEB
         </span>
         <span style="font-size:12px;padding:3px 8px;border-radius:6px;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);color:#fff;font-weight:700;letter-spacing:0.06em;">PRO</span>
@@ -1351,7 +1612,7 @@ body[data-layout-closing="b"] .fin .cta {
     <div class="vip-profile-card glass-panel" data-rv="up">
       
       <!-- AVATAR & IDENTITY SHOWCASE (Ultra-Sharp Glassmorphic Frame) -->
-      <div style="display:flex;align-items:center;gap:24px;margin-bottom:24px;flex-wrap:wrap;position:relative;z-index:2;">
+      <div class="hero-profile-header" style="display:flex;align-items:center;gap:24px;margin-bottom:24px;flex-wrap:wrap;position:relative;z-index:2;">
         <!-- Glowing Avatar Frame -->
         <div style="position:relative;flex-shrink:0;">
           <!-- Multi-color glowing aura backdrop -->
@@ -1371,7 +1632,7 @@ body[data-layout-closing="b"] .fin .cta {
 
         <!-- Name & Bio details -->
         <div style="flex:1 1 320px;">
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px;">
+          <div class="hero-profile-tags" style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px;">
             <h2 style="font-size:clamp(20px,2.4vw,28px);font-weight:800;color:#ffffff;margin:0;letter-spacing:0.02em;text-shadow:0 2px 10px rgba(0,0,0,0.6);">
               Vũ Đức Nam
             </h2>
@@ -1465,7 +1726,7 @@ body[data-layout-closing="b"] .fin .cta {
       </div>
 
       <!-- Action Buttons Row -->
-      <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;position:relative;z-index:2;">
+      <div class="hero-action-btns" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;position:relative;z-index:2;">
         <a href="#pathways" class="glass-btn-primary">
           <span>🚀 Xem 6 Dự Án Thực Chiến</span>
           <svg viewBox="0 0 14 14" fill="none" width="12" height="12"><path d="M3 11 11 3M5 3h6v6" stroke="#fff" stroke-width="1.8"/></svg>
@@ -1488,7 +1749,7 @@ body[data-layout-closing="b"] .fin .cta {
     </div>
 
     <!-- 4 Prominent Stat Boxes -->
-    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;" data-rv="up">
+    <div class="stat-grid-vip" data-rv="up">
       <div class="stat-box-vip" style="border-color:rgba(16,185,129,0.3);">
         <b style="color:#10b981;">3.52</b>
         <span>GPA ĐH Đại Nam (Top xuất sắc)</span>
@@ -1563,7 +1824,7 @@ body[data-layout-closing="b"] .fin .cta {
       </p>
 
       <!-- Real Photo Portrait Card (Authentic & Professional) -->
-      <div class="glass-card" style="display:flex;align-items:center;gap:18px;padding:16px 20px !important;border-color:rgba(56,189,248,0.35);margin:24px 0;border-radius:18px;background:linear-gradient(135deg,rgba(56,189,248,0.12) 0%,rgba(8,14,24,0.35) 100%),var(--glass-tint);box-shadow:0 10px 25px rgba(0,0,0,0.4);">
+      <div class="glass-card gate-portrait-card" style="display:flex;align-items:center;gap:18px;padding:16px 20px !important;border-color:rgba(56,189,248,0.35);margin:24px 0;border-radius:18px;background:linear-gradient(135deg,rgba(56,189,248,0.12) 0%,rgba(8,14,24,0.35) 100%),var(--glass-tint);box-shadow:0 10px 25px rgba(0,0,0,0.4);">
         <div style="position:relative;width:80px;height:88px;border-radius:14px;overflow:hidden;flex-shrink:0;border:2px solid rgba(255,255,255,0.75);box-shadow:0 0 20px rgba(56,189,248,0.35);background:#0a1220;">
           <img src="/asset/avt.jpg" alt="Vũ Đức Nam Chân Dung" style="width:100%;height:100%;object-fit:cover;object-position:50% 12%;display:block;">
         </div>
@@ -1603,7 +1864,7 @@ body[data-layout-closing="b"] .fin .cta {
     </p>
   </div>
 
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;" data-rv="up">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%, 280px),1fr));gap:20px;" data-rv="up">
     
     <!-- Box 1: Backend & Database -->
     <div class="glass-card" style="border-color:rgba(224,35,28,0.35);">
@@ -1683,7 +1944,7 @@ body[data-layout-closing="b"] .fin .cta {
     <span class="k"><b>03</b> — HÀNH TRÌNH &amp; GIẢI THƯỞNG</span><span class="rule"></span><span class="k">EXPERIENCE &amp; HONORS</span>
   </div>
 
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:36px;" data-rv="up">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%, 280px),1fr));gap:28px;" data-rv="up">
     
     <!-- Timeline Column -->
     <div>
@@ -1794,10 +2055,10 @@ body[data-layout-closing="b"] .fin .cta {
   </div>
 
   <!-- 6 Full Project Cards Grid -->
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;position:relative;z-index:2;" data-rv="up">
+  <div class="pathways-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%, 300px),1fr));gap:24px;position:relative;z-index:2;" data-rv="up">
     
     <!-- MASTER PROJECT: Business Intelligence & AI (Flagship Showcase) -->
-    <div class="glass-card" style="grid-column:1 / -1;border-color:rgba(245,158,11,0.55);background:linear-gradient(135deg,rgba(245,158,11,0.14) 0%,rgba(56,189,248,0.06) 50%,rgba(10,16,28,0.3) 100%),var(--glass-tint);box-shadow:0 0 45px rgba(245,158,11,0.22),inset 0 1px 1px rgba(255,255,255,0.4);display:flex;flex-direction:column;justify-content:space-between;padding:clamp(24px,3.8vw,40px) !important;">
+    <div class="glass-card flagship-card" style="grid-column:1 / -1;border-color:rgba(245,158,11,0.55);background:linear-gradient(135deg,rgba(245,158,11,0.14) 0%,rgba(56,189,248,0.06) 50%,rgba(10,16,28,0.3) 100%),var(--glass-tint);box-shadow:0 0 45px rgba(245,158,11,0.22),inset 0 1px 1px rgba(255,255,255,0.4);display:flex;flex-direction:column;justify-content:space-between;padding:clamp(24px,3.8vw,40px) !important;">
       <div style="position:relative;z-index:2;">
         <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px;">
           <div style="display:flex;align-items:center;gap:10px;">
@@ -1827,7 +2088,7 @@ body[data-layout-closing="b"] .fin .cta {
         </div>
       </div>
 
-      <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;position:relative;z-index:2;border-top:1px solid rgba(255,255,255,0.12);padding-top:20px;">
+      <div class="flagship-actions" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;position:relative;z-index:2;border-top:1px solid rgba(255,255,255,0.12);padding-top:20px;">
         <a href="https://github.com/vuducnam2005" target="_blank" class="glass-btn-primary" style="background:linear-gradient(135deg,#f59e0b,#e0231c) !important;box-shadow:0 0 28px rgba(245,158,11,0.45) !important;">
           <span>⭐ Khám Phá Dự Án Trên GitHub</span>
           <svg viewBox="0 0 14 14" fill="none" width="12" height="12"><path d="M3 11 11 3M5 3h6v6" stroke="#fff" stroke-width="1.8"/></svg>
@@ -2054,7 +2315,7 @@ body[data-layout-closing="b"] .fin .cta {
     </div>
 
     <!-- 4 Contact Cards Grid -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;text-align:left;margin-bottom:26px;position:relative;z-index:2;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%, 250px),1fr));gap:14px;text-align:left;margin-bottom:26px;position:relative;z-index:2;">
       
       <a href="mailto:vuducnam12345678@gmail.com" class="glass-subcard" style="text-decoration:none;" onmouseover="this.style.borderColor='var(--vermilion)';" onmouseout="this.style.borderColor='rgba(255,255,255,0.13)';">
         <div style="width:42px;height:42px;border-radius:12px;background:rgba(224,35,28,0.18);border:1px solid rgba(224,35,28,0.4);display:grid;place-items:center;font-size:20px;flex-shrink:0;">✉️</div>
@@ -2091,7 +2352,7 @@ body[data-layout-closing="b"] .fin .cta {
     </div>
 
     <!-- Social Channels Row -->
-    <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;border-top:1px solid rgba(255,255,255,0.12);padding-top:22px;position:relative;z-index:2;">
+    <div class="contact-hub-actions" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;border-top:1px solid rgba(255,255,255,0.12);padding-top:22px;position:relative;z-index:2;">
       <a href="mailto:vuducnam12345678@gmail.com" class="glass-btn-primary">
         <span>Gửi Email Cho Tôi</span>
         <svg viewBox="0 0 14 14" fill="none" width="12" height="12"><path d="M3 11 11 3M5 3h6v6" stroke="#fff" stroke-width="1.8"/></svg>
